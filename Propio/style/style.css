@@ -1,0 +1,55 @@
+body {
+    background-color: #545454;
+}
+
+.custom-img {
+    max-height: 300px; /* Ajusta el valor según tus necesidades */
+    object-fit: cover;
+  }
+
+  .card {
+    background-color: #878686;
+  }
+
+  .btnCustom {
+    background-color: #545454;
+    border-color: #878686;
+  }
+  
+ .imgProfile {
+  max-height: 350px;
+ }
+ .homeCont {
+  background-color: #545454;
+ }
+
+ .imgExperience {
+  max-height: 300px;
+ }
+
+ .imgEducation {
+  max-height: 168px;
+  max-width: 300px;
+ }
+
+ .imgLanguages {
+  max-height: 150px;
+  max-width: 250px;
+ }
+ .imgJs {
+  max-height: 130px;
+  max-width: 230px;
+ }
+
+ .movimiento {
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Estilos al pasar el mouse por encima */
+.movimiento:hover {
+  transform: scale(1.015);
+}
+
+.imgIdiomas {
+  max-height: 150px;
+}
